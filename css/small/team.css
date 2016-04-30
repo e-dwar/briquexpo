@@ -1,0 +1,17 @@
+
+#team {
+    padding: 1em 0 12em 0;
+}
+
+#faces div {
+    padding-bottom: 1em;
+}
+
+#faces img {
+    width: 122px;
+}
+
+#faces p {
+    padding-left: 2em;
+    padding-right: 2em;
+}

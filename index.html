@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>briquexpo</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/small.css" rel="stylesheet" media="screen and (max-width: 600px)" />
+        <link href="css/big.css" rel="stylesheet" media="screen and (min-width: 601px)" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+
+        <script src="js/jquery-1.12.2.min.js" type="text/javascript"></script>
+        <script src="js/anim.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div id="small"></div>
+        <div id="big"></div>
+
+        <!-- section: hook -->
+
+        <div id="hook" class="section fullscreen">
+            <div id="logo" class="clearfix">
+                <img src="img/logo.png" alt="" />
+                <div>
+                    French Enthousiasts<br />
+                    LEGO Users Group<hr />
+                    Nord Pas-de-Calais
+                </div>
+            </div>
+            <div id="slogan" class="abs-center">
+                <p>Vous aimez<br />les briques<br />LEGO?</p>
+                <img class="big" src="img/big/minifigs-fake.png" alt="" />
+                <img class="small" src="img/small/heart.png" alt="" />
+                <p id="weetoo">Nous<br />aussi!</p>
+            </div>
+            <p id="date" class="abs-center">
+                Rendez-vous<br />
+                à la Briqu’Expo Lomme<br />
+                les 8 et 9 Octobre!
+            </p>
+            <img title="section suivante" class="abs-center arrow" src="img/next-section.png" alt="" />
+        </div>
+
+        <!-- section: slideshow-small -->
+
+        <div id="slideshow-small" class="section">
+            <h3>À voir</h3>
+            <p>Des mises en scènes plus vraies que nature et le Grand Bidule à Balles!</p>
+            <img src="img/photo1.jpg" alt="" />
+            <h3>À construire</h3>
+            <p>Une montagne de briques en libre accès, une mosaïque collaborative, votre propre brick-film et des tournois de techball!</p>
+            <img src="img/photo2.jpg" alt="" />
+            <h3>À gagner</h3>
+            <p>Tentez votre chance à la tombola et remportez une des nombreuses boîtes de LEGO mises en jeu!</p>
+            <img src="img/photo3.jpg" alt="" />
+            <img title="section suivante" class="abs-center arrow" src="img/next-section.png" alt="" />
+        </div>
+
+        <!-- section: slideshow-big -->
+
+        <div id="slideshow-big" class="section fullscreen">
+            <div id="slides" class="abs-center">
+                <img src="img/photo1.jpg" alt="" class="active" />
+                <img src="img/photo2.jpg" alt="" />
+                <img src="img/photo3.jpg" alt="" />
+            </div>
+            <div id="mask-triangle" class="abs-center"></div>
+            <div id="mask-rectangle" class="abs-center"></div>
+            <div id="slide-legend" class="abs-center">
+                <div class="v-center">
+                    <h3 class="active">À voir</h3>
+                    <p class="active">Des mises en scènes plus vraies que nature et le Grand Bidule à Balles!</p>
+                    <h3>À construire</h3>
+                    <p>Une montagne de briques en libre accès, une mosaïque collaborative, votre propre brick-film et des tournois de techball!</p>
+                    <h3>À gagner</h3>
+                    <p>Tentez votre chance à la tombola et remportez une des nombreuses boîtes de LEGO mises en jeu!</p>
+                    <img title="photo suivante" src="img/next-slide.png" alt="" />
+                </div>
+            </div>
+            <img title="section suivante" class="abs-center arrow" src="img/next-section.png" alt="" />
+        </div>
+
+        <!-- section: infos -->
+
+        <div id="infos" class="section">
+            <h2>Infos pratiques</h2>
+            <div id="infos-columns">
+                <div id="infos-left">
+                    <h3>Dates et horaires</h3>
+                    <p>Samedi 8 Octobre 2016 de 10h à 19h.<br />Dimanche 9 Octobre 2016 de 10h à 18h.</p>
+                    <h3>Tarifs</h3>
+                    <table>
+                        <tr><td>Moins de 11 ans</td><td>&nbsp: gratuit.</td></tr>
+                        <tr><td>11-17 ans</td><td>&nbsp: 1 &euro; par jour.</td></tr>
+                        <tr><td>18 ans et plus</td><td>&nbsp: 2 &euro; par jour.</td></tr>
+                    </table>
+                    <h3>Restauration</h3>
+                    <p>Un camion de friterie sera présent pendant l'exposition pour vous restaurer. Petit espace restauration buvette à l'intérieur de l'exposition.</p>
+                    <h3>Transports</h3>
+                    <p>Métro ligne 2, bus Corolle et V'Lille, station Maison des Enfants. La salle est située à quelques mètres de la station. Consulter le site de Transpole: <a href="https://www.transpole.fr">https://www.transpole.fr</a>.</p>
+                </div
+                ><div id="infos-right">
+                    <h3>Contact</h3>
+                    <p><img src="img/facebook.png" alt="facebook" class="icon" /><a href="https://www.facebook.com/freelug/">facebook.com/freelug</a><br /><img src="img/mail.png" alt="mail" class="icon" /><a href="mailto:contact@freelug.org">contact@freelug.org</a></p>
+                    <h3>Adresse</h3>
+                    <p>Maison des Enfants de Lomme<br />796 Avenue de Dunkerque<br />59160 Lomme</p>
+                    <h3>Plan d'accès</h3>
+                    <p id="map">
+                        <img src="img/map.png" alt="" />                    
+                        <a title="ouvrir dans un nouvel onglet" target="_blank" href="https://goo.gl/maps/Mq8eHvhqHXU2">
+                            <img src="img/zoom.png" alt="" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <img title="section suivante" class="abs-center arrow" src="img/next-section.png" alt="" />
+        </div>
+
+        <!-- section: team -->
+
+        <div id="team" class="section fullscreen-big">
+            <div id="faces">
+                <h2>L'équipe FreeLUG Nord</h2>
+                <div>
+                    <img src="img/person1.png" alt="" />
+                    <h3>Jonathan<br /><span>Trésorier</span></h3>
+                    <hr />
+                    <p>“Les trains, y’a que ça de vrai!”</p>
+                </div>
+                <div>
+                    <img src="img/person2.png" alt="" />
+                    <h3>Jean-Jacques<br /><span>Président</span></h3>
+                    <hr />
+                    <p>“Le lego est un langage universel.”</p>
+                </div>
+                <div>
+                    <img src="img/person3.png" alt="" />
+                    <h3>Lucie<br /><span>Ambassadrice</span></h3>
+                    <hr />
+                    <p>“Qui a dit que c’était réservé aux mecs?”</p>
+                </div>
+            </div>
+            <img title="section suivante" class="abs-center arrow" src="img/next-section.png" alt="" />
+        </div>
+
+        <!-- section: about -->
+
+        <div id="about" class="section fullscreen-big">
+            <h2>L'association FreeLUG</h2>
+            <p>FreeLUG est une association 1901  qui rassemble des passionnés de la brique LEGO répartis sur toute la France (et même au-delà) qui jouent, collectionnent, construisent et reconstruisent, filment et animent, exposent. Du DUPLO au Technic, du moyen-âge à la robotique, en passant par la ville, l’espace, le train, la customisation, toutes les tendances sont les bienvenues!</p>
+            <p>Le comité régional Nord Pas-de-Calais se rencontre régulièrement sur Lille pour des restos-LEGO, des drafts, participer aux activités nationales et participer aux expositions de l’association (Assemblée Générale, Rencontre Estivale FreeLUG, etc...).</p>
+</p>
+            <img id="go-top" title="écran d'accueil" class="abs-center arrow" src="img/go-top.png" alt="" />
+        </div>
+    </body>
+</html>

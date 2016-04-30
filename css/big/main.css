@@ -1,0 +1,9 @@
+
+#big, .big {
+    display: block;
+}
+
+.fullscreen-big {
+    overflow: hidden;
+    height: 100%;
+}

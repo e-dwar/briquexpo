@@ -1,0 +1,8 @@
+
+body {
+    font-size: .65em;
+}
+
+#small, .small {
+    display: block;
+}

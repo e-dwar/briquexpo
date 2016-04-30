@@ -1,0 +1,28 @@
+
+#hook {
+    background: transparent url(../img/bg-bricks.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+#logo {
+    width: 317px;
+    font-size: 1.125em;
+    margin: 0 auto;
+}
+
+#logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#logo div {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 140%;
+}
+
+#date {
+    top: 60%;
+}
+

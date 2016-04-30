@@ -1,0 +1,115 @@
+
+
+
+/* main.css */
+
+
+body {
+    font-size: .65em;
+}
+
+#small, .small {
+    display: block;
+}
+
+
+/* about.css */
+
+
+#about {
+    padding: 1em 0 12em 0;
+}
+
+#about p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/* hook.css */
+
+
+#logo img {
+    width: 80px;
+}
+
+#slogan {
+    top: 15%;
+}
+
+#slogan img {
+    width: 85px;
+    margin: 0 auto;
+}
+
+#slogan p {
+    font-size: 2.75em;
+    margin: .75em 0;
+}
+
+#date {
+    font-size: 2.25em;
+}
+
+#weetoo {
+    display: none;
+}
+
+
+/* infos.css */
+
+
+#infos {
+    padding-top: 1em;
+}
+
+#infos-columns {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/* slideshow.css */
+
+
+#slideshow-big {
+    display: none;
+}
+
+#slideshow-small {
+    padding-top: 1em;
+    padding-bottom: 12em;
+}
+
+#slideshow-small p {
+    padding: 0 2em;
+}
+
+#slideshow-small img {
+    width: 80%;
+}
+
+#slideshow-small img.arrow {
+    width: auto;
+}
+
+
+/* team.css */
+
+
+#team {
+    padding: 1em 0 12em 0;
+}
+
+#faces div {
+    padding-bottom: 1em;
+}
+
+#faces img {
+    width: 122px;
+}
+
+#faces p {
+    padding-left: 2em;
+    padding-right: 2em;
+}

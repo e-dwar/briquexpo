@@ -1,0 +1,14 @@
+
+#faces {
+    padding-top: 3%;
+    margin: 0 auto;
+    width: 870px;
+}
+
+#faces div {
+    margin-top: 2em;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 2em;
+    width: 220px;
+}

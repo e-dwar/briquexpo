@@ -1,0 +1,28 @@
+
+#infos {
+    padding-bottom: 12em;
+    background: #004BBC;
+}
+
+#infos-columns {
+    text-align: left;
+}
+
+#map {
+    position: relative;
+}
+
+#map img {
+    width: 100%;
+}
+
+#map a img {
+    width: 1.25em;
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background: black;
+    padding: .25em;
+    border-radius: 50%;
+}

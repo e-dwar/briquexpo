@@ -1,0 +1,26 @@
+
+#logo img {
+    width: 80px;
+}
+
+#slogan {
+    top: 15%;
+}
+
+#slogan img {
+    width: 85px;
+    margin: 0 auto;
+}
+
+#slogan p {
+    font-size: 2.75em;
+    margin: .75em 0;
+}
+
+#date {
+    font-size: 2.25em;
+}
+
+#weetoo {
+    display: none;
+}
