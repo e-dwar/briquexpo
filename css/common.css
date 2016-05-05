@@ -124,7 +124,7 @@ hr {
 }
 
 #logo {
-    width: 317px;
+    width: 580px;
     font-size: 1.125em;
     margin: 0 auto;
 }
@@ -133,6 +133,13 @@ hr {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
+}
+
+#logo #lomme {
+    width: 150px;
+    background: white;
+    padding: .5em;
+    margin-right: 10px;
 }
 
 #logo div {
