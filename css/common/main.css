@@ -43,13 +43,13 @@ hr {
     margin: .25em auto;
 }
 
-#small, #big {
+#small, #medium, #big {
     display: none;
     position: absolute;
     visibility: hidden;
 }
 
-.small, .big {
+.small, .medium, .big, .gt-small {
     display: none;
 }
 

@@ -4,11 +4,11 @@
 /* main.css */
 
 
-#big, .big, .gt-small {
+#medium, .medium, .gt-small {
     display: block;
 }
 
-.fullscreen-big, .fullscreen-gt-small {
+.fullscreen-medium, .fullscreen-gt-small {
     overflow: hidden;
     height: 100%;
 }
@@ -18,9 +18,10 @@
 
 
 #about p {
-    width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 
@@ -66,8 +67,7 @@
 }
 
 #infos-columns {
-    max-width: 1000px;
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
@@ -153,7 +153,6 @@
 #faces {
     padding-top: 3%;
     margin: 0 auto;
-    width: 870px;
 }
 
 #faces div {
@@ -161,5 +160,10 @@
     vertical-align: top;
     display: inline-block;
     padding: 0 2em;
-    width: 220px;
+    width: 530px;
+}
+
+#faces div img {
+    float: left;
+    margin-right: 2em;
 }

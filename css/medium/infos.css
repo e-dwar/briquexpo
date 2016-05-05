@@ -1,0 +1,19 @@
+
+#infos {
+    padding-top: 5em;
+}
+
+#infos-columns {
+    width: 90%;
+    margin: auto;
+}
+
+#infos-right, #infos-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+#infos-left {
+    margin-right: 4%;
+}

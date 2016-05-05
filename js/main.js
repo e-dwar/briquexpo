@@ -2,10 +2,13 @@
 // screen size management
 
 var hookToggle, screenSize;
-var BIG = 1, SMALL = 2;
+var BIG    = 1;
+var MEDIUM = BIG << 1;
+var SMALL  = MEDIUM << 1;
 
 jQuery(function ($) {
     var big = $('#big');
+    var medium = $('#medium');
     var small = $('#small');
     $(window).resize(resize);
     $(window).load(resize);
@@ -19,13 +22,14 @@ jQuery(function ($) {
         screenSize = newSize;
         if (hookToggle) {
             hookToggle = hookToggle();
-        } else if (screenSize == BIG) {
+        } else if (screenSize & (BIG | MEDIUM)) {
             hook();
         }
     }
     function getScreenSize () {
-        if (isBlock(big))   return BIG;
-        if (isBlock(small)) return SMALL;
+        if (isBlock(big))    return BIG;
+        if (isBlock(medium)) return MEDIUM;
+        if (isBlock(small))  return SMALL;
         throw 'getScreenSize()';
     }
     function isBlock (el) {
@@ -38,7 +42,7 @@ jQuery(function ($) {
 function hook () {
     
     var $ = jQuery;
-    var img = $('#slogan img.big');
+    var img = $('#slogan img.gt-small');
     var p  = $('#hook p');
     var w = img.width();
     var opaque = { opacity: 1 };

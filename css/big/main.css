@@ -1,9 +1,9 @@
 
-#big, .big {
+#big, .big, .gt-small {
     display: block;
 }
 
-.fullscreen-big {
+.fullscreen-big, .fullscreen-gt-small {
     overflow: hidden;
     height: 100%;
 }

@@ -1,0 +1,9 @@
+
+#medium, .medium, .gt-small {
+    display: block;
+}
+
+.fullscreen-medium, .fullscreen-gt-small {
+    overflow: hidden;
+    height: 100%;
+}
