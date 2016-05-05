@@ -1,6 +1,14 @@
 
+#logo {
+    width: 300px;
+}
+
 #logo img {
     width: 80px;
+}
+
+#logo #lomme {
+    width: 65px;
 }
 
 #slogan {
